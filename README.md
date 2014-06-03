@@ -1,7 +1,7 @@
 PlanetKMeans
 ============
 
-C# OpenGL sample, Demo of K-Means clustering algorithm
+C# OpenGL sample, 3d demo of K-Means clustering algorithm
 
 Video demo:
 https://www.youtube.com/watch?v=WNPtCIQYqMc
