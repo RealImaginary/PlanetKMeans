@@ -24,7 +24,7 @@ namespace PlanetKMeans
         public Centroid cent;
     };
 
-    public class Centroid     //class, struct, who cares.  Actually, can't modify structs with foreach loop.  'foreach iteration variable'
+    public class Centroid
     {
         public float[] pnt, pntAvg;
         public int count, id;
@@ -44,7 +44,6 @@ namespace PlanetKMeans
 
         public PlanetKMeans.PlanetView view;
 
-        //public float[,] planets = new float[5,3];
         List<Planet> planets = new List<Planet>();
         List<Planet> snapshot = new List<Planet>();
         List<Centroid> centroids = new List<Centroid>();
